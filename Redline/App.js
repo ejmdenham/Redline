@@ -21,17 +21,24 @@ import {
 
 import OnboardingScreen from './src/screens/Onboarding';
 
-const App: () => React$Node = () => {
+const App = () => {
   return (
-    <>
-      <StatusBar barStyle='dark-content'/>
-      <SafeAreaView>
-
+    <View style = {styles.container}>
         <OnboardingScreen/>
-       
-      </SafeAreaView>
-    </>
+        <StatusBar style="auto"/>
+    </View>
   );
 };
 
-export default App;
+const styles = StyleSheet.create({
+  container: {
+      flex: 1,
+      alignContent: "center",
+      justifyContent: "center",
+      backgroundColor: '#fff'
+  }
+
+});
+
+
+export default App
