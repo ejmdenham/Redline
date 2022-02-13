@@ -1,5 +1,5 @@
 import React, {useState, useRef} from "react";
-import { View, Text, FlatList,Animated  } from 'react-native';
+import { View, FlatList,Animated, SafeAreaView  } from 'react-native';
 import styles from "./styles";
 
 import OnboardingSlides from "./OnboardingSlides";
@@ -23,9 +23,9 @@ export default OnboardingScreen = () => {
         <View style = {styles.container}>
             <View style = {{flex: 3}}>
                 <FlatList data={OnboardingSlides} 
-                renderItem={({item}) => <OnboardingItem item={item}/>} 
+                renderItem={({item}) => <OnboardingItem style={styles.container} item={item}/>} 
                 horizontal
-                showsHorizontalScrollIndicator
+                showsHorizontalScrollIndicator = {false}
                 pagingEnabled 
                 bounces = {false}
                 keyExtractor={(item) => item.id}
