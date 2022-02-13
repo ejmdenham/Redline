@@ -1,0 +1,60 @@
+initiate project (1&Done)
+	npx react-native init Redline
+open phone emulator
+	npx react-native run-ios
+(connect phone
+	npm start
+	npm iOS or npm android
+	)
+
+left youtube airbnbClone video (https://www.youtube.com/watch?v=ZxkmTsEYfg8&list=RDCMUCYSa_YLoJokZAwHhlwJntIA&start_radio=1&t=2037s)
+    @ 32:24
+
+WF Plans
+    1: Splash/Onboarding Screen
+        https://www.youtube.com/watch?v=Efy48Uoa4RM
+        https://www.youtube.com/watch?v=SMkR-iIGvwQ
+        https://www.youtube.com/watch?v=eSpu5K_2Fak&t=421s
+    2: Login/Signup Screen
+        *https://www.youtube.com/watch?v=ALnJLbjI7EY
+        https://www.youtube.com/watch?v=eSpu5K_2Fak&t=421s
+    3: Drawer
+        https://www.youtube.com/watch?v=l8nY4Alk70Q
+        https://www.youtube.com/watch?v=Inj0XKS6-KY&list=RDCMUCPZlE8KsMkumnjEMOcJDxuQ&index=17
+    4: Profile Screen
+        https://www.youtube.com/watch?v=mjJzaiGkaQA&list=PLQWFhX-gwJblNXe9Fj0WomT0aWKqoDQ-h&index=30
+    5: Quest Screen
+        Insights from - Realtime Chat App in React Native and AWS (?) (3 videos)
+    6: Main Map
+    7: Setting
+    8: Squads 
+        https://www.youtube.com/watch?v=EvSUJ5lUcBw&list=PLY3ncAV1dSVB_2zBpMPwURV0bIx33vVml
+        https://www.youtube.com/watch?v=_eFad7AGWdM
+        **https://www.youtube.com/watch?v=_eFad7AGWdM
+        https://www.youtube.com/watch?v=w7zQMbcF2Ag (for top scrolling squads)
+
+    https://www.youtube.com/watch?v=8KX4_4NK7ZY
+    https://www.youtube.com/watch?v=bvn_HYpix6s
+    https://www.youtube.com/watch?v=3_ldEVWlL18&list=PLQWFhX-gwJblNXe9Fj0WomT0aWKqoDQ-h&index=29
+    https://www.youtube.com/watch?v=KytduDMW_7o
+
+    Collapsable NavButton
+    https://www.youtube.com/watch?v=IEyUouhcuNQ
+
+    Find ALL targets within an Area Distance
+    https://www.youtube.com/watch?v=GZGAoeD1TS0
+
+    Amplify + AWS Location Services
+    https://www.youtube.com/watch?v=dTzrjuz7qAA&list=RDCMUCSLIvjWJwLRQze9Pn4cectQ&index=2
+
+    React Native iOS Push Notifications with AWS & Amazon Pinpoint
+    IOS) https://www.youtube.com/watch?v=um-DIIRsFlM
+
+    Notifications using SNS
+    https://www.youtube.com/watch?v=bktTomENEX8
+
+    timed and local notifications
+    https://www.youtube.com/watch?v=xSOr_u3Ev1s
+
+    Let's Build a TINDER clone with REACT NATIVE and AWS Amplify
+    https://www.youtube.com/watch?v=n1o9sEiiydo&t=32s
