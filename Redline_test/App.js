@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Login from './src/screens/Login';
 import Onboarding from './src/screens/Onboarding';
 
 export default App = () => {

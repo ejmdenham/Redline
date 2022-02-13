@@ -23,6 +23,16 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         paddingHorizontal: 64,
     },
+    dot: {
+        height: 10,
+        borderRadius: 5,
+        backgroundColor: '#493d8a',
+        marginHorizontal: 8,
+    },
+    paginator: { 
+        flexDirection: 'row', 
+        height: 64,
+    },
 });
 
 export default styles;
