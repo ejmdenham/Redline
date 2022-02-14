@@ -33,6 +33,12 @@ const styles = StyleSheet.create({
         flexDirection: 'row', 
         height: 64,
     },
+    nextButton: {
+        position: 'absolute',
+        backgroundColor: '#f4338f',
+        borderRadius: 100,
+        padding: 20,
+    },
 });
 
 export default styles;
