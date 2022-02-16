@@ -1,10 +1,10 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import styles from "./styles";
 
-export default Main = async () => {
+export default Main = () => {
     const clearOnboarding = async () => {
         try {
             await AsyncStorage.removeItem('@viewedOnboarding');
@@ -18,7 +18,7 @@ export default Main = async () => {
         <View style={styles.container}>
             <Text>Main Page</Text>
             <TouchableOpacity onPress={clearOnboarding}>
-                <Text>Clear Onboarding</Text>
+                <Text color="red">Clear Onboarding</Text>
             </TouchableOpacity>
         </View>
         
