@@ -13,7 +13,7 @@ import Login from '../Login';
 
 import styles from './styles';
 
-export default Onboarding = () => {
+const Onboarding = () => {
 
     const toLogin = () => (
         Alert.alert("Login Pressed")
@@ -71,3 +71,5 @@ export default Onboarding = () => {
         </View>
     );
 };
+
+export default Onboarding;
