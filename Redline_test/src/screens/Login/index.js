@@ -1,15 +1,19 @@
 import React from "react";
 import { View, Text, Button } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 import styles from "./styles";
 
-const Login = ({navigation}) => {
+const Login = (props) => {
+
+    const navigation = useNavigation();
+
     return (
 
         <View style={styles.container}>
-            <Text > Login Screen </Text>
+            <Text style={styles.text}> Login Screen </Text>
             <Button
             title="Click Here"
-            onPress={() => alert("BING!")}
+            onPress={() => navigation.navigate("Main")}
             />
         </View>
         

@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { View, Text, StyleSheet, FlatList, Animated, Alert } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-//import { useNavigation } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 
 import OnboardingItem from './onboardingItems';
 import slides from './onboardingSlides';
@@ -13,10 +13,12 @@ import Login from '../Login';
 
 import styles from './styles';
 
-const Onboarding = () => {
+const Onboarding = (props) => {
+
+    const navigation = useNavigation();
 
     const toLogin = () => (
-        Alert.alert("Login Pressed")
+        navigation.navigate("Login")
     );
 
     const [currentIndex, setCurrentIndex] = useState(0);

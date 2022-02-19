@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import "react-native-gesture-handler"
+
+import Router from './src/navigation/router';
 
 import Login from './src/screens/Login';
 import Main from './src/screens/Main';
@@ -38,9 +41,12 @@ export default App = () => {
     }, []);
 
     return (
-        <View style={styles.container}>
+        <>
+        {/*<View style={styles.container}>
             {loading ? <Loading /> : viewedOnboarding ? <Main /> : <Onboarding />}
-        </View>
+        </View>*/}
+            <Router/>
+        </>
     );
 };
 
