@@ -9,7 +9,7 @@ import slides from './onboardingSlides';
 import Paginator from './Paginator';
 import nextButton from './nextButton';
 
-import Login from '../Login';
+import AuthRouter from '../../navigation/AuthRouter';
 
 import styles from './styles';
 
@@ -18,7 +18,7 @@ const Onboarding = (props) => {
     const navigation = useNavigation();
 
     const toLogin = () => (
-        navigation.navigate("Login")
+        navigation.replace("AuthRouter")
     );
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -68,8 +68,7 @@ const Onboarding = (props) => {
             </View>
 
             <Paginator data={slides} scrollX={scrollX} />
-            <NextButton scrollTo={scrollTo} percentage={(currentIndex + 1) * (100 / slides.length)} />
-
+            <NextButton scrollTo={scrollTo} percentage={(currentIndex + 1) * (100 / slides.length)}/> 
         </View>
     );
 };

@@ -12,10 +12,13 @@ const Login = (props) => {
         <View style={styles.container}>
             <Text style={styles.text}> Login Screen </Text>
             <Button
-            title="Click Here"
+            title="Click Here To Main"
             onPress={() => navigation.navigate("Main")}
-            />
-        </View>
+            /> 
+        <Button
+            title="Click Here To Join"
+            onPress={() => navigation.navigate("Join")}
+            /></View>
         
     );
 };

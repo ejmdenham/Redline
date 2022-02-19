@@ -63,7 +63,7 @@ export default NextButton = ({ percentage, scrollTo }) => {
                 </G>
             </Svg>
             <TouchableOpacity onPress={scrollTo} style={styles.nextButton} activeOpacity={0.6}>
-                <Icon name="doubleright" size={32} color="#fff" />
+                <Icon name="right" size={32} color="#fff" />
             </TouchableOpacity>
         </View>
     );

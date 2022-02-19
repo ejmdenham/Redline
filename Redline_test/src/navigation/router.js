@@ -7,15 +7,10 @@ import Onboarding from "../screens/Onboarding";
 import Main from "../screens/Main";
 
 const Stack = createStackNavigator();
-
 const Router = (props) => {
-    
     return(
         <NavigationContainer>
               <Stack.Navigator>
-                    <Stack.Screen
-                    name="Onboarding"
-                    component={Onboarding}/>
                     <Stack.Screen
                     name="Login"
                     component={Login}/>

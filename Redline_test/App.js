@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { NavigationContainer } from '@react-navigation/native';
 import "react-native-gesture-handler"
 
-import Router from './src/navigation/router';
-
-import Login from './src/screens/Login';
-import Main from './src/screens/Main';
-import Onboarding from './src/screens/Onboarding';
+import OnboardingRouter from './src/navigation/OnboardingRouter';
+import AuthRouter from './src/navigation/AuthRouter';
 
 const Loading = () => {
     return (
@@ -41,12 +39,10 @@ export default App = () => {
     }, []);
 
     return (
-        <>
-        {/*<View style={styles.container}>
-            {loading ? <Loading /> : viewedOnboarding ? <Main /> : <Onboarding />}
-        </View>*/}
-            <Router/>
-        </>
+        <NavigationContainer>
+            {loading ? <Loading /> : viewedOnboarding ? <AuthRouter /> : <OnboardingRouter />}
+            {/*<OnboardingRouter/>*/}
+        </NavigationContainer>
     );
 };
 

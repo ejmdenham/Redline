@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import styles from "./styles";
 
-export default Main = () => {
+const Main = () => {
     const clearOnboarding = async () => {
         try {
             await AsyncStorage.removeItem('@viewedOnboarding');
@@ -24,3 +24,5 @@ export default Main = () => {
         
     );
 };
+
+export default Main;
