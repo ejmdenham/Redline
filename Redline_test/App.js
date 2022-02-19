@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+
 import { NavigationContainer } from '@react-navigation/native';
 import "react-native-gesture-handler"
 
@@ -41,7 +42,8 @@ export default App = () => {
     return (
         <NavigationContainer>
             {loading ? <Loading /> : viewedOnboarding ? <AuthRouter /> : <OnboardingRouter />}
-            {/*<OnboardingRouter/>*/}
+            {/* If loading? Show loading screen :otherwise: 
+                If user viewedOnboarding? Show AuthRouter :otherwise: show OnboardingRouter  */}
         </NavigationContainer>
     );
 };

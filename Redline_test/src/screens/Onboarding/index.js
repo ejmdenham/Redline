@@ -18,6 +18,7 @@ const Onboarding = (props) => {
     const navigation = useNavigation();
 
     const toLogin = () => (
+        //Navigate to the AuthRouter and replace the current screen with it
         navigation.replace("AuthRouter")
     );
 
@@ -38,7 +39,6 @@ const Onboarding = (props) => {
             try {
                 await AsyncStorage.setItem('@viewedOnboarding', 'true');
                 console.log('clicked last OB screen');
-                //Navigate to the Login screen
                 toLogin();
             } catch (err) {
                 console.log('Error @setItem: ', err);
