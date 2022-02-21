@@ -7,6 +7,10 @@ open phone emulator
 	npm iOS or npm android
 	)
 
+conditional navigation: 
+https://www.youtube.com/watch?v=v2R0DFXqaF0
+https://dev.to/krisguzman_dev/conditional-navigation-in-react-533n
+
 making a custom splash screen: 
 https://blog.logrocket.com/building-a-splash-screen-in-react-native/
 https://www.netguru.com/blog/react-native-splash-screen
