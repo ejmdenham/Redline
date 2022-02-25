@@ -7,6 +7,7 @@ import "react-native-gesture-handler"
 
 import OnboardingRouter from './src/navigation/OnboardingRouter';
 import AuthRouter from './src/navigation/AuthRouter';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 const Loading = () => {
     return (
@@ -40,6 +41,7 @@ export default App = () => {
     }, []);
 
     return (
+        
         <NavigationContainer>
             {loading ? <Loading /> : viewedOnboarding ? <AuthRouter /> : <OnboardingRouter />}
             {/* If loading? Show loading screen :otherwise: 
