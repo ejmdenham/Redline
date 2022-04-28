@@ -7,6 +7,8 @@ open phone emulator
 	npm iOS or npm android
 	)
 
+https://js.coach/
+
 conditional navigation: 
 https://www.youtube.com/watch?v=v2R0DFXqaF0
 https://dev.to/krisguzman_dev/conditional-navigation-in-react-533n
@@ -41,9 +43,12 @@ WF Plans
         https://www.youtube.com/watch?v=Inj0XKS6-KY&list=RDCMUCPZlE8KsMkumnjEMOcJDxuQ&index=17
     4: Profile Screen
         https://www.youtube.com/watch?v=mjJzaiGkaQA&list=PLQWFhX-gwJblNXe9Fj0WomT0aWKqoDQ-h&index=30
-    5: Quest Screen
+    5: Quest Screen / Hunts
         Insights from - [SEARCH] Realtime Chat App in React Native and AWS (?) (3 videos)
     6: Main Map
+        https://github.com/react-native-maps/react-native-maps
+        https://instamobile.io/react-native-tutorials/uber-react-native-geolocation/
+        https://medium.com/quick-code/react-native-location-tracking-14ab2c9e2db8
     7: Setting
     8: Squads 
         https://www.youtube.com/watch?v=EvSUJ5lUcBw&list=PLY3ncAV1dSVB_2zBpMPwURV0bIx33vVml

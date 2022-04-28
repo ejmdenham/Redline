@@ -6,6 +6,11 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
     },
+    text: {
+        color:"#161924",
+        fontSize: 20,
+        fontWeight: 500
+    },
 });
 
 export default styles;
