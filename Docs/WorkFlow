@@ -1,6 +1,7 @@
 initiate project (1&Done)
 	npx react-native init Redline
 open phone emulator
+    (after 'cd'ing into Redline_test directory)
 	npx react-native run-ios
 (connect phone
 	npm start
